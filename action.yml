@@ -1,5 +1,5 @@
-name: 'XPath Action-DOM'
-description: 'Execute XPath 1.0 expression on a given document - DOM'
+name: 'Unescape-JSOn'
+description: 'UNESCAPE-JSON'
 runs:
   using: 'node12'
   main: 'index.js'
