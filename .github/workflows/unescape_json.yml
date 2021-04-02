@@ -1,4 +1,4 @@
-name: XMLDOM-READ
+name: UNESCAPE-JSON
 
 on: [push]
 
@@ -13,5 +13,5 @@ jobs:
       id: unesc-json
       uses: ./
 
-    - name: unescape-Json
-      run: echo -e "Result from unescape-Json:\n${{ steps.unescape-Json.outputs.result }}"
+    # - name: unescape-Json
+    #   run: echo -e "Result from unescape-Json:\n${{ steps.unescape-Json.outputs.result }}"
